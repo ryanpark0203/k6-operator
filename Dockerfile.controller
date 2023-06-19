@@ -1,4 +1,4 @@
-ARG GO_BUILDER_IMG
+ARG GO_BUILDER_IMG=golang:1.18
 # Build the manager binary
 FROM ${GO_BUILDER_IMG} as builder
 
